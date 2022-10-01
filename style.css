@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 1000px;
+}
+body,
+p {
+  margin: 20;
+  padding: 20;
+}
+
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .project {
+  border-collapse: collapse;
+  border: 2px solid pink;
+}
+
+div.content {
+  position: relative;
+}
+
+div.recommend {
+  background-color: aqua;
+  top: 0px;
+  right: 10px;
+  position: absolute;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 10px 0px 10px 0 rgb(243, 174, 174), 0 6px 20px 0 rgb(62, 3, 3);
+}
